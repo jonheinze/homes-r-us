@@ -1,0 +1,22 @@
+{
+	"address": {
+		"type": "text",
+		"label": "Address"
+	},
+
+	"price": {
+		"type": "number",
+		"label": "Price"
+	},
+
+	"listDate": {
+		"type": "date",
+		"label": "List Date"
+	},
+
+	"foundationDetails": {
+		"type": "array",
+		"label": "Foundation Details"
+	}
+
+}
