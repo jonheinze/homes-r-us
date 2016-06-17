@@ -32,6 +32,6 @@ app.get('/', function (req, res) {
 	res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(80, function () {
-  console.log("Server running on port 80");
+app.listen(process.env.PORT || 3000, function () {
+  console.log("Server running");
 });
